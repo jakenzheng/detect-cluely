@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anti-Cluely</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+
+            body {
+                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+                background: #fafafa;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                color: #333
+            }
+
+            .container {
+                background: white;
+                border-radius: 12px;
+                padding: 60px 40px;
+                max-width: 400px;
+                width: 100%;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+                text-align: center;
+                border: 1px solid #f0f0f0
+            }
+
+            h1 {
+                font-size: 2.2em;
+                margin-bottom: 8px;
+                color: #1a1a1a;
+                font-weight: 600;
+                letter-spacing: -0.5px
+            }
+
+            .subtitle {
+                color: #666;
+                margin-bottom: 40px;
+                font-size: 0.95em;
+                font-weight: 400
+            }
+
+            .status {
+                padding: 24px;
+                margin: 30px 0;
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 1em;
+                transition: all 0.2s ease;
+                border: 1px solid #e8e8e8
+            }
+
+            .safe {
+                background: #f8fffe;
+                color: #059669;
+                border-color: #d1fae5
+            }
+
+            .warning {
+                background: #fffbf0;
+                color: #d97706;
+                border-color: #fed7aa
+            }
+
+            .danger {
+                background: #fef2f2;
+                color: #dc2626;
+                border-color: #fecaca
+            }
+
+            .scanning {
+                background: #f0f9ff;
+                color: #2563eb;
+                border-color: #dbeafe
+            }
+
+            .status-title {
+                font-size: 1.1em;
+                margin-bottom: 6px;
+                font-weight: 600
+            }
+
+            .status-message {
+                font-size: 0.9em;
+                opacity: 0.8;
+                font-weight: 400;
+                line-height: 1.5
+            }
+
+            button {
+                background: #1a1a1a;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 6px;
+                font-size: 0.9em;
+                font-weight: 500;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                margin-top: 12px
+            }
+
+            button:hover {
+                background: #333
+            }
+
+            .loader {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                border: 2px solid rgba(37,99,235,0.2);
+                border-radius: 50%;
+                border-top-color: #2563eb;
+                animation: spin 1s linear infinite;
+                margin-right: 8px
+            }
+
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg)
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div style="text-align:center;margin-bottom:20px;">
+                <div style="font-weight:700;font-size:1.1em;margin-bottom:12px;letter-spacing:1px;background:linear-gradient(45deg,#667eea,#764ba2,#667eea);background-size:200% 200%;animation:gradient 3s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">HACK THE HACKERS</div>
+                <div style="font-size:0.85em;color:#666;line-height:1.6;margin-bottom:4px;">If you cheat, there should be an anti-cheat.</div>
+                <div style="font-size:0.85em;color:#666;line-height:1.6;margin-bottom:4px;">Today it's cheating, tomorrow it's fair.</div>
+                <div style="font-size:0.85em;color:#666;line-height:1.6;margin-bottom:4px;">Why shouldn't it be today?</div>
+                <div style="font-size:0.85em;color:#666;line-height:1.6;margin-bottom:8px;">No more fools on both sides.</div>
+                <div style="font-size:0.8em;color:#999;font-style:italic;margin-bottom:20px;">The best hack is truth.</div>
+            </div>
+            <style>
+                @keyframes gradient {
+                    0% {
+                        background-position: 0% 50%
+                    }
+
+                    50% {
+                        background-position: 100% 50%
+                    }
+
+                    100% {
+                        background-position: 0% 50%
+                    }
+                }
+            </style>
+            <div id="status" class="status scanning">
+                <div class="status-title">
+                    <span class="loader"></span>
+                    Initializing Scan
+                </div>
+                <div class="status-message">Analyzing system for cheating software...</div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
