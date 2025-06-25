@@ -127,9 +127,9 @@ function _0x7q8r() {
             clearInterval(_0x1a2b);
             let _0xuu = Date.now() - _0x5e6f;
             if (_0xuu < _0x3m4n) {
-                _0xvwxy('danger', String.fromCharCode(9888) + ' ' + atob('U1VTUElDSU9VUyBBQ1RJVklUWQ=='), atob('WW91ciBicm93c2VyIGlzIGJlaGF2aW5nIGxpa2UgYSBzcHkgYWdlbnQ='))
+                _0xvwxy('danger', String.fromCharCode(9888) + ' ' + atob('U1VTU1kgQkFLQQ=='), atob('Ym96byB1c2luZyBjbHVlbHkgbG1mYW8='))
             } else {
-                _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('QlJPV1NFUiBWRVJJRklFRQ=='), atob('WW91ciBicm93c2VyIGlzIGFzIGhvbmVzdCBhcyBhIGJveSBzY291dA=='))
+                _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('U3lzdGVtIGlzIGNsZWFu'), atob('bXkgYiBmb3IgZG91YnRpbmcgeW91IGJpZyBicm8='))
             }
         }
     }
@@ -138,7 +138,7 @@ function _0x7q8r() {
         clearInterval(_0x1a2b);
         if (_0x3c4d && !_0x3c4d.closed) {
             _0x3c4d.close();
-            _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('U0FGRSBUTyBCUk9XU0U='), atob('WW91ciBicm93c2VyIGlzIGFzIHNhZmUgYXMgYSBwYW5kYSBpbiBhIHpvbg=='))
+            _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('U3lzdGVtIGlzIGNsZWFu'), atob('bXkgYiBmb3IgZG91YnRpbmcgeW91IGJpZyBicm8='))
         }
     }
     , 600)
@@ -201,7 +201,7 @@ function _0xvwxy(_0x3b, _0x4c, _0x5d) {
     let _0x6e = document.getElementById(_0x1k2l);
     _0x6e.className = 'status ' + _0x3b;
     let _0x7f = _0x4c.replace(/[âš ï¸ðŸš«âœ…ðŸ"„]/g, '').trim();
-    _0x6e.innerHTML = '<div class="status-title">' + _0x7f + '</div><div class="status-message">' + _0x5d + '</div>'
+    _0x6e.innerHTML = '<div class="status-title"> ' + _0x7f + ' </div><div class="status-message"> ' + _0x5d + ' </div>'
 }
 
 function _0xinit() {
