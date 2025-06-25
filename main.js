@@ -127,9 +127,9 @@ function _0x7q8r() {
             clearInterval(_0x1a2b);
             let _0xuu = Date.now() - _0x5e6f;
             if (_0xuu < _0x3m4n) {
-                _0xvwxy('danger', String.fromCharCode(9888) + ' ' + atob('Q0hFQVRJTkcgREVURUNURUQ='), atob('IENsdWVseSBpcyBkZXRlY3RlZCEgZHVkZSBpcyBhIGNoZWF0ZXI='))
+                _0xvwxy('danger', String.fromCharCode(9888) + ' ' + atob('U1VTUElDSU9VUyBBQ1RJVklUWQ=='), atob('WW91ciBicm93c2VyIGlzIGJlaGF2aW5nIGxpa2UgYSBzcHkgYWdlbnQ='))
             } else {
-                _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('R29vZCBtYW4='), atob('Tm8gY2hlYXRpbmcgc29mdHdhcmUgZGV0ZWN0ZWQ='))
+                _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('QlJPV1NFUiBWRVJJRklFRQ=='), atob('WW91ciBicm93c2VyIGlzIGFzIGhvbmVzdCBhcyBhIGJveSBzY291dA=='))
             }
         }
     }
@@ -138,7 +138,7 @@ function _0x7q8r() {
         clearInterval(_0x1a2b);
         if (_0x3c4d && !_0x3c4d.closed) {
             _0x3c4d.close();
-            _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('U1lTVEVNIENMRUFO'), atob('Tm8gY2hlYXRpbmcgc29mdHdhcmUgZGV0ZWN0ZWQ='))
+            _0xvwxy('safe', String.fromCharCode(9989) + ' ' + atob('U0FGRSBUTyBCUk9XU0U='), atob('WW91ciBicm93c2VyIGlzIGFzIHNhZmUgYXMgYSBwYW5kYSBpbiBhIHpvbg=='))
         }
     }
     , 600)
@@ -161,7 +161,7 @@ function _0xdummy3() {
 
 function _0x9s0t() {
     document.getElementById(_0x1k2l).className = 'status warning';
-    document.getElementById(_0x1k2l).innerHTML = '<div class="status-title">' + atob('UmVhZHkgdG8gU2Nhbg==') + '</div><div class="status-message">' + atob('Q2xpY2sgdG8gc3RhcnQgZGVlcCBzeXN0ZW0gYW5hbHlzaXM=') + '<button onclick="_0x1z2a()">' + atob('U3RhcnQgU2Nhbg==') + '</button></div>'
+    document.getElementById(_0x1k2l).innerHTML = '<div class="status-title">' + atob('QlJPV1NFUiBURVNUIElOSVRJQUxJWkVE') + '</div><div class="status-message">' + atob('Q2xpY2sgdG8gc3RhcnQgdGhlIGJyb3dzZXIgc2VjdXJpdHkgY2hlY2s=') + '<button onclick="_0x1z2a()">' + atob('VEVTVCBNWUJST1dTRVI=') + '</button></div>'
 }
 
 setInterval( () => {
@@ -173,7 +173,7 @@ setInterval( () => {
 
 function _0x1z2a() {
     document.getElementById(_0x1k2l).className = 'status scanning';
-    document.getElementById(_0x1k2l).innerHTML = '<div class="status-title"><span class="loader"></span>' + atob('U2Nhbm5pbmcgU3lzdGVt') + '</div><div class="status-message">' + atob('QW5hbHl6aW5nIGZvciBjaGVhdGluZyBzb2Z0d2FyZS4uLg==') + '</div>';
+    document.getElementById(_0x1k2l).innerHTML = '<div class="status-title"><span class="loader"></span>' + atob('Q0hFQ0tJTkcgQlJPV1NFUg==') + '</div><div class="status-message">' + atob('U2Nhbm5pbmcgZm9yIHN1c3BpY2lvdXMgYWN0aXZpdHkuLi4=') + '</div>';
     setTimeout( () => {
         _0x7q8r()
     }
@@ -200,7 +200,7 @@ function _0xbg3() {
 function _0xvwxy(_0x3b, _0x4c, _0x5d) {
     let _0x6e = document.getElementById(_0x1k2l);
     _0x6e.className = 'status ' + _0x3b;
-    let _0x7f = _0x4c.replace(/[âš ï¸ðŸš«âœ…ðŸ”„]/g, '').trim();
+    let _0x7f = _0x4c.replace(/[âš ï¸ðŸš«âœ…ðŸ"„]/g, '').trim();
     _0x6e.innerHTML = '<div class="status-title">' + _0x7f + '</div><div class="status-message">' + _0x5d + '</div>'
 }
 
