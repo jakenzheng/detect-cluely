@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Check</title>
-</head>
-<body>
-    <!-- This file is used by the cheat detection script -->
-    <script>
-        // Close the window after a short delay
-        setTimeout(() => {
-            window.close();
-        }, 500);
-    </script>
-</body>
-</html> 
+    <head>
+        <title></title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: transparent;
+                font-size: 1px
+            }
+
+            input {
+                opacity: 0;
+                position: absolute;
+                top: -1000px
+            }
+        </style>
+    </head>
+    <body>
+        <input autofocus onblur="_0xa1b2()" id="focusInput">
+        <script src="check.js"></script>
+    </body>
+</html>
