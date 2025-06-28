@@ -1,6 +1,6 @@
 # cluely detector
 
-Inspired by a LinkedIn post (shoutout to hackatron!), I decided to open source this project for all of y'all to learn from. 
+Inspired by a LinkedIn post I saw, I decided to open source this project for all of y'all to learn from. maybe cluely patches this ;) 
 ---
 
 **What is this?**
